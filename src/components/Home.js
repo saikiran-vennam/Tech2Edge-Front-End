@@ -27,7 +27,6 @@ const Home = () => {
     <div className="my-container">
       {state.characters.length > 0 ? (
         <div className="mt-100" style={{ backgroundImage: `url(${imageUrl})` }}>
-          <NavBar className="b-t" />
           <div className="main-container">
             <div className="series">
               <h1 className="custom-title heading">{state.series.title}</h1>
